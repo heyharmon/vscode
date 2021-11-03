@@ -1,0 +1,23 @@
+/**
+ * Explorer
+ * The file tree located left
+ */
+.title-actions { 
+  display: none;
+}
+
+.title:hover .title-actions {
+  display: flex;
+}
+
+/**
+ * Tabs Container
+ * Located above code
+ */
+.tabs-and-actions-container .actions-container {
+  display: none;
+}
+
+.tabs-and-actions-container:hover .actions-container {
+  display: flex;
+}
